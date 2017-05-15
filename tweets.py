@@ -8,11 +8,11 @@ if len(sys.argv)>=2:
 else:
     topic="india"
 print "Topic is "+topic
-consumer_key= '9mQcDQ64vQ0gznfkSrnTvVArA'
-consumer_secret= 'XaCPpewaR9D79qpq2Ldd8gcOPVObKhXO9hv7FnBFzepuMnmd0u'
+consumer_key= 'YOUR KEY'
+consumer_secret= 'YOUR KEY'
 
-access_token='2186444372-l6iOT8XCof8Pu4XISRTZL8RFpEiTxljwa9GkVIY'
-access_token_secret='LgHpLM3ZxagDf5BGx525vLIjQHQAUW8PS9mFr8E7wzz7N'
+access_token='YOUR KEY'
+access_token_secret='YOUR KEY'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
